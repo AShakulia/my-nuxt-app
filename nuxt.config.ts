@@ -22,6 +22,11 @@ export default defineNuxtConfig({
       omitLineBreaks: false,
     },
   },
+  runtimeConfig: {
+    public: {
+      slug: process.env.SLUG
+    }
+  },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
