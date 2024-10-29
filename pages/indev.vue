@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="p-20 mn:p-2">
     <h1>indev</h1>
     <ButtonVue
      label="Назад"
